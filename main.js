@@ -96,3 +96,9 @@ const verbs = [
     "need",
     "feel"
 ]
+
+// Gets a random word from an array of words
+function getRandomWord(wordArr) {
+    const wordPos = Math.floor(Math.random() * wordArr.length);
+    return wordArr[wordPos];
+}
