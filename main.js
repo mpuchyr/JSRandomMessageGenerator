@@ -102,3 +102,5 @@ function getRandomWord(wordArr) {
     const wordPos = Math.floor(Math.random() * wordArr.length);
     return wordArr[wordPos];
 }
+
+console.log(getRandomWord(nouns))
