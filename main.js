@@ -109,11 +109,13 @@ function capitalize (word) {
     return firstLetter + word.slice(1);
 }
 
+// Creates a quote with random adjectives, nouns, and a verb
 function createQuote() {
     const adj1 = getRandomWord(adjectives);
     const noun1 = getRandomWord(nouns);
     const verb = getRandomWord(verbs);
     const adj2 = getRandomWord(adjectives);
     const noun2 = getRandomWord(nouns);
-    
+    return `${capitalize(adj1)} ${noun1} ${verb} ${adj2} ${noun2}.`;
 }
+
