@@ -119,3 +119,4 @@ function createQuote() {
     return `${capitalize(adj1)} ${noun1} ${verb} ${adj2} ${noun2}.`;
 }
 
+console.log(createQuote());
