@@ -30,3 +30,36 @@ const nouns = [
     "government",
     "number"
 ]
+
+const adjectives = [
+    "other",
+    "new",
+    "good",
+    "high",
+    "old",
+    "great",
+    "big",
+    "American",
+    "small",
+    "large",
+    "national",
+    "young",
+    "different",
+    "black",
+    "long",
+    "little",
+    "important",
+    "political",
+    "bad",
+    "white",
+    "real",
+    "best",
+    "right",
+    "social",
+    "only",
+    "public",
+    "sure",
+    "low",
+    "early",
+    "able"
+]
