@@ -63,3 +63,36 @@ const adjectives = [
     "early",
     "able"
 ]
+
+const verbs = [
+    "be",
+    "have",
+    "do",
+    "say",
+    "go",
+    "can",
+    "get",
+    "would",
+    "make",
+    "know",
+    "will",
+    "think",
+    "take",
+    "see",
+    "come",
+    "could",
+    "want",
+    "look",
+    "use",
+    "find",
+    "give",
+    "tell",
+    "work",
+    "may",
+    "should",
+    "call",
+    "try",
+    "ask",
+    "need",
+    "feel"
+]
