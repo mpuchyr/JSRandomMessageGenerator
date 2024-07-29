@@ -103,4 +103,17 @@ function getRandomWord(wordArr) {
     return wordArr[wordPos];
 }
 
-console.log(getRandomWord(nouns))
+// Capitalizes the first letter of a word
+function capitalize (word) {
+    let firstLetter = word.charAt(0).toUpperCase();
+    return firstLetter + word.slice(1);
+}
+
+function createQuote() {
+    const adj1 = getRandomWord(adjectives);
+    const noun1 = getRandomWord(nouns);
+    const verb = getRandomWord(verbs);
+    const adj2 = getRandomWord(adjectives);
+    const noun2 = getRandomWord(nouns);
+    
+}
